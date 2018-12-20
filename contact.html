@@ -26,31 +26,204 @@ Lorem ipsum dolor sit amet.
 </ul>
 
 {
-  "name": "resume",
-  "version": "1.0.0",
-  "description": "CV de Mika ANDRIANARIJAONA",
-  "main": "resume.json",
-  "scripts": {
-    "test": "./node_modules/.bin/resume test",
-    "export-html": "./node_modules/.bin/resume export index --format html --theme kwan"
+  "basics": {
+    "name": "Camille MATHIERE",
+    "label": "Etudiante en e-commerce",
+    "picture": "",
+    "email": "mikaoelitiana@gmail.com",
+    "phone": "(+33) 06 22 45 64 71",
+    "website": "https://mikaoelitiana.name",
+    "summary": "Passioné par la programmation depuis l'adoléscence, j'ai commencé à programmé sur une vielle calculatrice SHARP EL-5500 de mon père avec le language Basic. J'ai par la suite décidé de suivre une école d'informatique pour approfondir mes connaissance et pouvoir vivre de cette passion. Je travaille aujourd'hui comme dévéloppeur Javascript assicié à d'autres techologies selon les besoin. J'ai une expérience très riche avec React, React Native, Node.js, Elixir, Objective C et Java ou Python. J'utilise au quotidien plusieurs outils et technologie d'intégration continu et de devops comme Docker, Gitlab Ci ou Jenkins.",
+    "location": {
+      "address": "14 rue des frères Chausson",
+      "postalCode": "92600",
+      "city": "Asnières-sur-Seine",
+      "countryCode": "FR",
+      "region": "Ile-de-France"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "mikaoelitiana",
+        "url": "https://github.com/mikaoelitiana"
+      },
+      {
+        "network": "Twitter",
+        "username": "mikaoelitiana",
+        "url": "https://twitter.com/mikaoelitiana"
+      },
+      {
+        "network": "Linkedin",
+        "username": "mikaoelitiana",
+        "url": "https://linkedin.com/in/mikaoelitiana"
+      }
+    ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mikaoelitiana/resume.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mikaoelitiana/resume/issues"
-  },
-  "homepage": "https://github.com/mikaoelitiana/resume#readme",
-  "dependencies": {
-    "jsonresume-theme-kwan": "0.0.2",
-    "resume-cli": "^0.4.19"
-  }
+  "work": [
+    {
+      "company": "INEAT",
+      "position": "Ingénieur d'étude et développement",
+      "website": "http://ineat-conseil.fr",
+      "startDate": "2018-01-08",
+      "summary": "INEAT est une société de service informatique dans laquelle j'interviens sur des projets Javascript",
+      "highlights": [
+        "Création d'applications React/React Native et intégration avec Redux/Redux Saga ainsi que GraphQL",
+        "Etude et mise en place de l'architecture des applications",
+        "Mise en place du système d'intégration continue avec Jenkins"
+      ]
+    },
+    {
+      "organization": "TAG-IP",
+      "position": "Chef de projet et développeur lead",
+      "website": "http://tag-ip.com/",
+      "startDate": "2015-08-01",
+      "endDate": "2017-12-31",
+      "summary": "TAG-IP développe une solution pour le suivi d'une flotte de véhicule par GPS.",
+      "highlights": [
+        "Développement de l'API et de micro-services avec Node.JS et Elixir",
+        "Création d'applications clients avec AngularJS, React et React Native",
+        "Mise en place du système d'intégration continue et de déploiement continue avec Gitlab CI, Docker et Rancher",
+        "Gestion de projet et de l'équipe de développement autour de la méthode agile Kanban",
+        "Création et mise en place d'outils pour améliorer le suivi de projet (https://github.com/tagip/forest-guard, https://github.com/tagip/votabia)"
+      ]
+    },
+    {
+      "organization": "Netapsys Madagascar",
+      "position": "Chef de projet et développeur Drupal",
+      "website": "http://netapsys.fr/",
+      "startDate": "2012-08-01",
+      "endDate": "2015-07-30",
+      "summary": "Netapsys est une société de service informatique travaillant avec des grands client à Madagascar et en France",
+      "highlights": [
+        "Développement de projets avec Drupal 6 & 7, Wordpress et Joomla",
+        "Analyse des besoins clients, étude technique et estimation des charges",
+        "Création de modules personnalisés",
+        "Gestion de projet et de l'équipe de développement autour de la méthode agile Scrum",
+        "Déploiement sur les différents environnements",
+        "Optimisation des performances avec Boost, Varnish",
+        "Configuration de moteurs de recherche avec Solr"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Mattermost",
+      "position": "Développeur React",
+      "website": "https://github.com/mattermost",
+      "startDate": "2015-08-01",
+      "summary": "Mattermost est un outil open source de collaboration et de discussion",
+      "highlights": [
+        "Correction de bugs",
+        "Création de nouvelles fonctionnalités",
+        "Participation à des meetups et rencontres avec les autres collaborateurs "
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Institut Supérieur Polytechnique de Madagascar",
+      "area": "Téchnologies de l'Information et de la Communication",
+      "studyType": "Ingénieur",
+      "startDate": "2005-11-01",
+      "endDate": "2011-08-01",
+      "gpa": "",
+      "courses": [
+      ]
+    }
+  ],
+  "awards": [
+  ],
+  "publications": [
+    {
+      "name": "Un dépôt Github comme CV",
+      "publisher": "Mika ANDRIANARIJAONA",
+      "releaseDate": "2018-05-29",
+      "website": "https://mikaoelitiana.name/fr/un-depot-github-comme-cv/",
+      "summary": "Créer son CV à la manière geek et le publier sur Github Pages avec Travis CI"
+    },
+    {
+      "name": "React Native Android – Générer versionCode et versionName depuis package.json",
+      "publisher": "Mika ANDRIANARIJAONA",
+      "releaseDate": "2018-06-04",
+      "website": "https://mikaoelitiana.name/fr/react-native-android-generer-versioncode-et-versionname-depuis-package-json/",
+      "summary": "Faciliter les changements à faire lors de la création d'une nouvelle version d'un projet React Native Android"
+    },
+    {
+      "name": "Générer un rapport de couverture de tests avec Jest et Jenkins",
+      "publisher": "Mika ANDRIANARIJAONA",
+      "releaseDate": "2018-06-19",
+      "website": "https://mikaoelitiana.name/fr/generer-un-rapport-de-couverture-de-tests-avec-jest-et-jenkins/",
+      "summary": "Dans cet article, j’explique comment publier un rapport de couverture de tests exécutés par Jest dans les builds automatiques Jenkins."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Développement Web",
+      "level": "Avancé",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React",
+        "AngularJs",
+        "Drupal",
+        "Wordpress"
+      ]
+    },
+    {
+      "name": "Développement Mobile",
+      "level": "Avancé",
+      "keywords": [
+        "React Native",
+        "Objective C"
+      ]
+    },
+    {
+      "name": "Automatisation",
+      "level": "Avancé",
+      "keywords": [
+        "Jenkins",
+        "Gitlab CI"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Natif"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "Bon"
+    },
+    {
+      "language": "Espagnol",
+      "fluency": "Niveau Lycée"
+    },
+    {
+      "language": "Malgache",
+      "fluency": "Natif"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sport",
+      "keywords": [
+        "Basket-Ball",
+        "Natation"
+      ]
+    },
+    {
+      "name": "Musique",
+      "keywords": [
+        "Guitare basse"
+      ]
+    }
+  ],
+  "references": [
+    
+  ]
 }
-
-
 
 
 
